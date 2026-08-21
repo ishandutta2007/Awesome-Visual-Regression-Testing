@@ -46,95 +46,19 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Applitools](https://applitools.com/)**  
-
-  Enterprise visual-testing platform centered around Visual AI, visual regression testing, cross-browser validation, component testing, and automated identification of meaningful UI differences. :contentReference[oaicite:0]{index=0}
-
-
-
-- **[Percy](https://percy.io/)**  
-
-  BrowserStack's visual-testing platform for capturing UI snapshots, rendering them across supported environments and responsive widths, comparing them with baselines, and reviewing visual changes through CI/CD workflows. :contentReference[oaicite:1]{index=1}
-
-
-
-- **[Argos](https://argos-ci.com/)**  
-
-  Visual-regression testing platform designed around screenshot capture, image comparison, CI integration, pull-request workflows, and collaborative approval of visual changes. Argos also maintains open-source components. :contentReference[oaicite:2]{index=2}
-
-
-
-- **[Cypress Cloud Visual Reviews](https://www.cypress.io/)**  
-
-  Cypress ecosystem integrations can be combined with visual-testing services to capture screenshots during Cypress tests and review visual changes alongside automated test workflows. :contentReference[oaicite:3]{index=3}
-
-
-
-- **[Chromatic](https://www.chromatic.com/)**  
-
-  Visual testing and review platform closely integrated with Storybook for capturing UI components, detecting visual changes, and reviewing component changes in CI and pull requests. :contentReference[oaicite:4]{index=4}
-
-
-
-- **[Loki](https://loki.js.org/)**  
-
-  Visual regression testing solution focused on Storybook components, using automated screenshots and image comparison to detect UI changes.
-
-
-
-- **[Lost Pixel](https://lost-pixel.com/)**  
-
-  Visual-regression platform supporting Storybook, Ladle, Histoire, application pages, and custom screenshots. Its core engine is open source, while its hosted platform provides collaboration and review workflows. :contentReference[oaicite:5]{index=5}
-
-
-
-- **[BackstopJS Cloud](https://garris.github.io/BackstopJS/)**  
-
-  Hosted offerings and integrations around BackstopJS-style screenshot comparison workflows. BackstopJS itself is open source and can also be completely self-hosted. :contentReference[oaicite:6]{index=6}
-
-
-
-- **[SmartBear VisualTest](https://smartbear.com/visualtest/)**  
-
-  Visual-regression testing platform supporting full-page and element-level screenshots, browser/device validation, automated comparisons, and review workflows. :contentReference[oaicite:7]{index=7}
-
-
-
-- **[Happo](https://happo.io/)**  
-
-  Visual testing platform supporting component and full-page screenshots, multiple browsers and screen sizes, and integrations with modern frontend testing workflows. :contentReference[oaicite:8]{index=8}
-
-
-
-- **[Sauce Labs Visual](https://saucelabs.com/)**  
-
-  Visual-testing capabilities integrated into Sauce Labs' broader browser and application testing platform, including screenshot baselines and visual comparisons. :contentReference[oaicite:9]{index=9}
-
-
-
-- **[LambdaTest SmartUI](https://www.lambdatest.com/smartui)**  
-
-  Cloud-based visual-testing platform supporting screenshot capture, visual comparisons, cross-browser/device testing, and integrations with automated testing frameworks. :contentReference[oaicite:10]{index=10}
-
-
-
-- **[Wopee.io](https://wopee.io/)**  
-
-  Visual-validation platform that integrates visual checks into automated testing workflows, including Cypress-based testing. :contentReference[oaicite:11]{index=11}
-
-
-
-- **[Percy for Storybook](https://percy.io/)**  
-
-  Visual testing workflow for Storybook component libraries, allowing teams to detect unintended changes across UI states and responsive configurations. :contentReference[oaicite:12]{index=12}
-
-
-
-- **[Applitools Eyes](https://applitools.com/)**  
-
-  Visual AI testing engine designed to identify meaningful visual changes rather than relying solely on strict pixel-by-pixel comparison. :contentReference[oaicite:13]{index=13}
+| Product | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Chromatic](https://www.chromatic.com/)** | Visual testing & UI review platform by Storybook maintainers for web components and pages. | **$179 / month** (Starter plan, 35,000 snapshots/month, all browsers) | **Free forever**: 5,000 snapshots/month (Chrome only, unlimited projects & collaborators) |
+| **[Argos](https://argos-ci.com/)** | Fast visual regression testing platform with seamless Git/CI integrations and PR review workflows. | **$100 / month** (Pro plan, 35,000 screenshots/month, $0.004/extra snapshot) | **Free forever (Hobby)**: 5,000 screenshots/month, 30-day retention; 14-day free trial of Pro plan |
+| **[Happo](https://happo.io/)** | Cross-browser visual regression testing tool for component libraries and full web pages. | **$149 / month** (Starter plan, 50,000 snapshots/month, API access, unlimited users) | **Free forever**: 5,000 snapshots/month (Chrome browser, visual & a11y testing included) |
+| **[Percy (BrowserStack)](https://percy.io/)** | All-in-one visual review platform rendering snapshots across browsers and responsive viewports. | **$599 / month** (Entry paid tier with custom volume scaling across BrowserStack) | **Free forever**: 5,000 screenshots/month with unlimited users and projects |
+| **[SmartBear VisualTest](https://smartbear.com/visualtest/)** | Automated visual regression testing across browsers and viewports with automated baseline updates. | **$143 / month** (Standard plan billed annually, 2,000 screenshots/month) | **Free forever**: 100 screenshots/month, 7-day test run history, unlimited users; 14-day free trial |
+| **[Cypress Cloud](https://www.cypress.io/)** | Test orchestration and visual review layer integrating with Cypress end-to-end and component tests. | **$75 / month** (Team plan, $67/month billed annually with flake detection & parallelization) | **Free forever (Starter)**: 500 test results/month for up to 50 users; 30-day free trial of Team plan |
+| **[LambdaTest SmartUI](https://www.lambdatest.com/smartui)** | Cloud-based visual regression platform providing pixel-by-pixel comparisons across 3000+ browser/OS combinations. | **$269 / month** per parallel test session (or automated testing bundles starting at $79/month) | **Free forever (Lite)**: Access with limited monthly visual screenshot tests; 15-day free trial on paid plans |
+| **[Wopee.io](https://wopee.io/)** | Autonomous visual validation and self-healing UI testing platform powered by AI agents. | **€19 / user / month** (Starter plan, up to 10 projects, 150 test steps/session) | **Free forever**: AI test execution (~15–30 steps per 5-hour session window); 14-day trial guarantee |
+| **[Applitools](https://applitools.com/)** | Enterprise-grade Visual AI testing platform detecting functional and visual UI anomalies across devices. | **$500 / month** (Estimated entry Starter annual tier based on Test Units / 50 Test Units) | **Free forever**: 100 visual checkpoints/month with unlimited users; 14-day free trial (50 Test Units) |
+| **[Sauce Labs Visual](https://saucelabs.com/)** | Enterprise automated visual validation integrated into Sauce Labs cross-browser/device testing cloud. | **$149 / month** (Virtual Device Cloud base tier; Visual Testing sold via custom enterprise add-on) | **Free trial**: 28-day free trial with 2,000 automated testing minutes (Visual access on demo request) |
+| **[Lost Pixel Cloud](https://lost-pixel.com/)** | Hosted visual regression platform for Storybook, Ladle, and web pages *(SaaS sunset; core engine is open-source)*. | **$100 / month** (Historical Startup tier for 40,000 screenshots/mo before Figma acquisition) | **Free forever**: Core CLI/engine is 100% free open source; historical cloud tier included 7,000 screenshots/mo |
 
 
 
@@ -144,13 +68,13 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 - **[BackstopJS](https://github.com/garris/BackstopJS)**  
 
-  One of the most established open-source visual-regression testing tools. It automatically captures screenshots and compares them against approved reference images, with an interactive visual-diff report and CI support. It supports Chrome Headless and can use Playwright/Puppeteer workflows. :contentReference[oaicite:14]{index=14}
+  One of the most established open-source visual-regression testing tools. It automatically captures screenshots and compares them against approved reference images, with an interactive visual-diff report and CI support. It supports Chrome Headless and can use Playwright/Puppeteer workflows. 
 
 
 
 - **[Playwright](https://github.com/microsoft/playwright)**  
 
-  Open-source browser automation framework with built-in screenshot comparison through `toHaveScreenshot()`. It is one of the simplest ways to add visual regression testing directly to end-to-end tests. :contentReference[oaicite:15]{index=15}
+  Open-source browser automation framework with built-in screenshot comparison through `toHaveScreenshot()`. It is one of the simplest ways to add visual regression testing directly to end-to-end tests. 
 
 
 
@@ -162,19 +86,19 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 - **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)**  
 
-  Open-source visual-regression engine supporting Storybook, Ladle, Histoire, application pages, and custom screenshots. It can run visual tests in CI and serves as an open-source alternative to commercial platforms such as Percy, Chromatic, and Applitools. :contentReference[oaicite:16]{index=16}
+  Open-source visual-regression engine supporting Storybook, Ladle, Histoire, application pages, and custom screenshots. It can run visual tests in CI and serves as an open-source alternative to commercial platforms such as Percy, Chromatic, and Applitools. 
 
 
 
 - **[reg-suit](https://github.com/reg-viz/reg-suit)**  
 
-  Open-source visual-regression testing toolkit that separates screenshot capture from image comparison and supports cloud/object-storage-backed baseline workflows. It is particularly useful for custom CI pipelines. :contentReference[oaicite:17]{index=17}
+  Open-source visual-regression testing toolkit that separates screenshot capture from image comparison and supports cloud/object-storage-backed baseline workflows. It is particularly useful for custom CI pipelines. 
 
 
 
 - **[jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot)**  
 
-  Jest matcher for image comparisons, enabling screenshot-based visual regression tests directly within Jest test suites. :contentReference[oaicite:18]{index=18}
+  Jest matcher for image comparisons, enabling screenshot-based visual regression tests directly within Jest test suites.
 
 
 
@@ -282,7 +206,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 - **[BackstopJS Examples](https://github.com/garris/BackstopJS)**  
 
-  BackstopJS provides a complete reference-based screenshot workflow including capture, comparison, reporting, and approval of changed screenshots. :contentReference[oaicite:19]{index=19}
+  BackstopJS provides a complete reference-based screenshot workflow including capture, comparison, reporting, and approval of changed screenshots. 
 
 
 
@@ -314,7 +238,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 - **[Loki](https://github.com/oblador/loki)** — Storybook-focused component visual regression.
 
-- **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)** — open-source visual regression engine for Storybook, Ladle, Histoire, pages, and custom screenshots. :contentReference[oaicite:20]{index=20}
+- **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)** — open-source visual regression engine for Storybook, Ladle, Histoire, pages, and custom screenshots. 
 
 - **[reg-suit](https://github.com/reg-viz/reg-suit)** — extensible visual-regression pipeline with external baseline storage.
 
